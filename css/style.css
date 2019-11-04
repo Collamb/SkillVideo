@@ -1,0 +1,12 @@
+body {
+    background: linear-gradient(90deg, #0a0c25, #020d18);
+}
+
+a.main-header-logo {
+    font-size: 25px;
+    font-family: "Montserrat";
+    background: linear-gradient(119deg, #6a4dfe, #1b429b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+  }
