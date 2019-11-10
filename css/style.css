@@ -1,12 +1,97 @@
 body {
     background: linear-gradient(90deg, #0a0c25, #020d18);
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: #ffffff;
 }
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main-header {
+    padding: 20px;
+}
+
+.main-navigation {  
+    display: inline-flex;
+    width: 100%;
+}
+
+.main-header-logo {
+    display: flex;
+    width: 20%;
+    justify-content: flex-start;
+    margin: 10px 20px;
+    padding: 20px 0px;
+}
+
+.site-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-navigation li, .user-navigation li{
+    margin: 10px 20px;
+    vertical-align: baseline;
+}
+
+.site-navigation li {
+    padding: 20px 0px;
+}
+
+li a {
+    vertical-align: sub;
+}
+
+.user-navigation {
+    display: flex;
+    justify-content: flex;
+    width: 20%;
+    margin: 0;
+    padding: auto 0;
+  
+    list-style: none;
+  }
 
 a.main-header-logo {
     font-size: 25px;
     font-family: "Montserrat";
+    font-weight: 900;
     background: linear-gradient(119deg, #6a4dfe, #1b429b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
+    padding-left: 20px;
   }
+
+.registration-btn {
+    background: linear-gradient(119deg, #6a4dfe, #1b429b);
+    border-radius: 8px;
+    color: #122dff;
+    display: inline-block;
+    font-size: 20px;
+    padding: 1px;
+    text-decoration: none;
+}
+
+.registration-btn span {
+    background: linear-gradient(90deg, #0a0c25, #020d18);
+    display: block;
+    padding: 1em 3em;
+    border-radius: 6px;
+}
+
+.registration-btn:hover span {
+    background: none;
+    color: #ffffff;
+    display: block;
+    padding: 1em 3em;
+    border-radius: 6px;
+}
